@@ -2,9 +2,6 @@ from selenium import webdriver
 from time import sleep
 from credenciais import *
 
-##### MENSAGEM #####
-msg = "--*--"
-
 # Browser
 url = "https://twitter.com/"
 ChromeConfig = webdriver.ChromeOptions()
