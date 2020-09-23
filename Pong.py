@@ -44,17 +44,6 @@ class Bar():
             elif self.y < 0 or self.y > 600:
                 move_IA = 0
                 return move_IA
-            '''
-            IA ANTIGA E NÃO FUNCIONAL
-            if self.y < randint(100, 400):
-                move_IA = 1
-                return move_IA
-            elif self.y > randint(400, 700):
-                move_IA = -1
-                return move_IA
-            else:
-                return move_IA
-                '''
 
 class Ball():
     def __init__(self, x, y):
