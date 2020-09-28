@@ -153,7 +153,8 @@ while True:
             if event.key == K_w or event.key == K_s:
                 move_y_p1 = 0
             elif event.key == K_DOWN or event.key == K_UP:
-                move_y_p2 = 0
+                if not modo_jogo:
+                    move_y_p2 = 0
     
     # Movimento paddles
     p1.atualizar_posicao(move_y_p1)
